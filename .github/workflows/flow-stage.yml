@@ -1,0 +1,14 @@
+name: flow-stage
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  format:
+    uses: igrek8/github-workflows/.github/workflows/job-format.yml@main
+  release:
+    needs: [format]
+    uses: igrek8/github-workflows/.github/workflows/job-release.yml@main
+    secrets:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

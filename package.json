@@ -1,0 +1,45 @@
+{
+  "name": "@igrek8/eslint-config",
+  "version": "0.0.0",
+  "license": "MIT",
+  "prettier": "@igrek8/prettier",
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "release": {
+    "extends": [
+      "@igrek8/semantic-release"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": ".eslintrc.js",
+  "files": [
+    ".eslintrc.js"
+  ],
+  "scripts": {
+    "format": "prettier --check \"**/*\""
+  },
+  "peerDependencies": {
+    "eslint": "^8",
+    "eslint-plugin-prettier": "^4",
+    "eslint-config-prettier": "^8",
+    "@typescript-eslint/eslint-plugin": "^5",
+    "@typescript-eslint/parser": "^5"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.4.4",
+    "@commitlint/config-conventional": "17.4.4",
+    "@igrek8/prettier": "1.0.1",
+    "@igrek8/semantic-release": "1.0.2",
+    "eslint": "8.34.0",
+    "husky": "8.0.3",
+    "@typescript-eslint/eslint-plugin": "5.53.0",
+    "@typescript-eslint/parser": "5.53.0",
+    "eslint-config-prettier": "8.6.0",
+    "eslint-plugin-prettier": "4.2.1"
+  }
+}
