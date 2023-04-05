@@ -2,7 +2,7 @@
   "name": "@igrek8/eslint-config",
   "version": "0.0.0",
   "license": "MIT",
-  "prettier": "@igrek8/prettier",
+  "prettier": "@igrek8/prettier-config",
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
@@ -10,7 +10,7 @@
   },
   "release": {
     "extends": [
-      "@igrek8/semantic-release"
+      "@igrek8/semantic-release-config"
     ]
   },
   "publishConfig": {
@@ -33,8 +33,8 @@
   "devDependencies": {
     "@commitlint/cli": "17.5.1",
     "@commitlint/config-conventional": "17.4.4",
-    "@igrek8/prettier": "1.0.1",
-    "@igrek8/semantic-release": "1.0.2",
+    "@igrek8/prettier-config": "1.0.11",
+    "@igrek8/semantic-release-config": "1.0.11",
     "eslint": "8.37.0",
     "husky": "8.0.3",
     "@typescript-eslint/eslint-plugin": "5.57.1",
