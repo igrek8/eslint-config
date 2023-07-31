@@ -37,7 +37,7 @@
     "@igrek8/semantic-release-config": "1.0.11",
     "eslint": "8.46.0",
     "husky": "8.0.3",
-    "@typescript-eslint/eslint-plugin": "5.61.0",
+    "@typescript-eslint/eslint-plugin": "6.2.0",
     "@typescript-eslint/parser": "5.62.0",
     "eslint-config-prettier": "8.9.0",
     "eslint-plugin-prettier": "4.2.1"
